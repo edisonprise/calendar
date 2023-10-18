@@ -31,10 +31,44 @@
                         <input type="text" placeholder="mm/yyyy" class="date-input">
                         <button class="goto-btn"></button>
                     </div>
-                    <button class="today-btn">today</button>
+                    <button class="today-btn">Today</button>
                 </div>
             </div>
         </div>
+        <div class="right">
+            <div class="today-date">
+                <div class="event-day">Tue</div>
+                <div class="event-date">17 October 2023</div>
+            </div>
+            <div class="events">
+               <!--we will add events through js-->
+            </div>
+            <div class="add-event-wrapper">
+                <div class="add-event-header">
+                    <div class="title">Add Event</div>
+                    <i class="fas fa-times close"></i>
+                </div>
+                <div class="add-event-body">
+                    <div class="add-event-input">
+                        <input type="text" placeholder="Event Name" class="event-name">
+                    </div>
+                    <div class="add-event-input">
+                        <input type="text" placeholder="Event Time From" class="event-time-from">
+                    </div>
+                    <div class="add-event-input">
+                        <input type="text" placeholder="Event Time To" class="event-time-to">
+                    </div>
+                </div>
+                <div class="add-event-footer">
+                    <button class="add-event-btn">
+                        add event
+                    </button>
+                </div>
+            </div>
+        </div>
+        <button class="add-event">
+            <i class="fas fa-plus"></i>
+        </button>
     </div>
     <script src="script.js"></script>
 </body>
